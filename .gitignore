@@ -52,6 +52,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*_BackUpThisFolder_ButDontShipItWithYourGame
 
 #python
 # Byte-compiled / optimized / DLL files
