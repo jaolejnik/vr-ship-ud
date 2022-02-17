@@ -17,6 +17,7 @@ __pycache__
 
 #unity
 [Ll]ibrary/
+[Ll]ogs/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
