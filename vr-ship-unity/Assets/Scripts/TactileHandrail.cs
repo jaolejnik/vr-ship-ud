@@ -24,6 +24,9 @@ public class TactileHandrail : MonoBehaviour
         Transform markers_parent_transform = gameObject.transform.Find("Markers");
         foreach(Transform marker in markers_parent_transform)
             markers.Add(marker.gameObject);
+        
+        if (!currentTiltDirection)
+            markers.Reverse();
     }
 
     // Update is called once per frame

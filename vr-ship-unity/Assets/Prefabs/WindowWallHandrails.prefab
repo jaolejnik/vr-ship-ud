@@ -1,0 +1,1491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5373549752793179556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 218230801219848768}
+  m_Layer: 0
+  m_Name: WindowWallHandrails
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &218230801219848768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5373549752793179556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4954321877055802884}
+  - {fileID: 5292159658883118943}
+  - {fileID: 5498191786703847472}
+  - {fileID: 6093750157172378470}
+  - {fileID: 5529001819872728484}
+  - {fileID: 1327606754098595968}
+  - {fileID: 4076621562986926826}
+  - {fileID: 4008225549941698821}
+  - {fileID: 2539189057667815406}
+  - {fileID: 2358062398318585685}
+  - {fileID: 213141391481562943}
+  - {fileID: 155137397732408677}
+  - {fileID: 3519144091122667138}
+  - {fileID: 6051049710867659318}
+  - {fileID: 4779028619080541116}
+  - {fileID: 5015379862197994809}
+  - {fileID: 2139217304875266008}
+  - {fileID: 2790253832385196271}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &118383169605935643
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &2790253832385196271 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 118383169605935643}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &297641306427720986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &2539189057667815406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 297641306427720986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &551102233156973985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &2358062398318585685 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 551102233156973985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1205977514253067249
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &4008225549941698821 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1205977514253067249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1714445569873337462
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &3519144091122667138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1714445569873337462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2274173192258600990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &4076621562986926826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2274173192258600990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2682814326627446673
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &155137397732408677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2682814326627446673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2731810551535646155
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &213141391481562943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2731810551535646155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3850848716398664308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &1327606754098595968 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3850848716398664308}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4227871799309221164
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &2139217304875266008 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 4227871799309221164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7099459337553663949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &5015379862197994809 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7099459337553663949}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7195948125777386736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &4954321877055802884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7195948125777386736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7300028211696136520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &4779028619080541116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7300028211696136520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7733223181845451460
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &5498191786703847472 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7733223181845451460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7757054612070352720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &5529001819872728484 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7757054612070352720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7957274389687543211
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &5292159658883118943 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7957274389687543211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8326369238340032914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &6093750157172378470 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8326369238340032914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8423359029849221314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 218230801219848768}
+    m_Modifications:
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408126957101119206, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: m_Name
+      value: TactileHandrail (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: currentTiltDirection
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
+--- !u!4 &6051049710867659318 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2818248199763055348, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8423359029849221314}
+  m_PrefabAsset: {fileID: 0}

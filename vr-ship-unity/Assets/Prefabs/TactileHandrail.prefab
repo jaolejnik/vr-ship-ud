@@ -94,9 +94,9 @@ MonoBehaviour:
   activeMaterial: {fileID: 2100000, guid: 3e73948329ab1d647aa5a73bd9c911b1, type: 2}
   nextHandRail: {fileID: 0}
   prevHandRail: {fileID: 0}
-  blinkPeriod: 0.1
+  blinkPeriod: 0.05
   currentTiltDirection: 1
-  emergency: 1
+  emergency: 0
 --- !u!1001 &24532142057456131
 PrefabInstance:
   m_ObjectHideFlags: 0
