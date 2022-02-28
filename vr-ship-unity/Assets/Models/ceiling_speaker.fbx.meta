@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f34e48fbe22c4604f805875bac5fac9d
+guid: 10695e6d4af6f3a4abf8f4579c4fd3e0
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ceiling speaker case
-    second: {fileID: 2100000, guid: 9cfa40a06bbf905429d3559d1fa4f17a, type: 2}
+    second: {fileID: 2100000, guid: 96779a8728382354cbc7d98ad118d2aa, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ceiling speaker membrane
-    second: {fileID: 2100000, guid: c6bd7188f80b11e4db026c9fbca4dd28, type: 2}
+    second: {fileID: 2100000, guid: b770b5255bda8f343a99c469ac315fda, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

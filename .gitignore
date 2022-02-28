@@ -23,6 +23,7 @@ __pycache__
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+default-????.dwlt
 
 # Visual Studio cache directory
 .vs/

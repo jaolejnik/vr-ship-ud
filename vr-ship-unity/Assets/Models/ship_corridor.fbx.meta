@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: df68efe2d276d9c499e5e6f099c0c3df
+guid: fd4050ec9aad56a49908f46ab6afd8e4
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -8,57 +8,57 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Buttons
-    second: {fileID: 2100000, guid: 37dc245b19928a84288ed83f2d0fbbdc, type: 2}
+    second: {fileID: 2100000, guid: 05fb9a009f6653442bbfec356b5cb149, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Buttons Panel
-    second: {fileID: 2100000, guid: 6b487648bd3eebc468ab78c74e46e944, type: 2}
+    second: {fileID: 2100000, guid: a04cbd731f3811d4781db35b8a0e806a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ceiling
-    second: {fileID: 2100000, guid: e143a622d193c6e44827c55076655888, type: 2}
+    second: {fileID: 2100000, guid: 3f4e468031b79a74995289024defa0bf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Current floor
-    second: {fileID: 2100000, guid: dbe8d53379641bc4ea16086acaee0f32, type: 2}
+    second: {fileID: 2100000, guid: ecab4f5c7fa90984584a32fd6fb22923, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door blade
-    second: {fileID: 2100000, guid: f61858b1f02dcfb418154a8047e0dff7, type: 2}
+    second: {fileID: 2100000, guid: 80273e5666d30a848ae4e00114e5431f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door handle
-    second: {fileID: 2100000, guid: 2880da7483ed19341ad38c1a773f2215, type: 2}
+    second: {fileID: 2100000, guid: 231b3e7ea6b93834196eee76e79ef0bd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Elevator
-    second: {fileID: 2100000, guid: 205622fe80adfc7468e9850e820af21e, type: 2}
+    second: {fileID: 2100000, guid: eabd27e725923634cb524da893e479c6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Level indicator
-    second: {fileID: 2100000, guid: 46410d94faec37543bbce5e90189df11, type: 2}
+    second: {fileID: 2100000, guid: 759b13ef6e1be4749bd1f82bca17217e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Walls
-    second: {fileID: 2100000, guid: 92952493d72a6cd41b7adffa76070594, type: 2}
+    second: {fileID: 2100000, guid: 41599473b52ebb04db23df904c746fee, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Window frame
-    second: {fileID: 2100000, guid: 286cff3cf30fedf44910dfd16f62b9e7, type: 2}
+    second: {fileID: 2100000, guid: 4d8363b9f6eff954f94686eee319805c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Window glass
-    second: {fileID: 2100000, guid: 9e2908fc5e8b6f94f8fadf6304a528ef, type: 2}
+    second: {fileID: 2100000, guid: 24f262bf43b696c4a9d03d758e7fee7e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
