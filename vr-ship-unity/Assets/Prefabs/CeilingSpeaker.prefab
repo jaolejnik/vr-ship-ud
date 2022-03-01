@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9130258265713849220}
   - component: {fileID: 7598878951876865795}
   - component: {fileID: 7598878951876865798}
+  - component: {fileID: 3645261128544882064}
   m_Layer: 0
   m_Name: CeilingSpeaker
   m_TagString: Untagged
@@ -191,7 +192,7 @@ AudioLowPassFilter:
   m_GameObject: {fileID: 7328990418851140177}
   m_Enabled: 1
   serializedVersion: 3
-  m_LowpassResonanceQ: 2.5
+  m_LowpassResonanceQ: 8
   lowpassLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -207,3 +208,16 @@ AudioLowPassFilter:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3645261128544882064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328990418851140177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8796355a78218841830f3d69cb61f78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alarmClip: {fileID: 8300000, guid: 4ca995aff584de9439bdd3c58cf46055, type: 3}
