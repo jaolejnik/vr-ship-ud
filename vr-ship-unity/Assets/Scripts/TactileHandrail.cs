@@ -5,50 +5,82 @@ using UnityEngine;
 
 public class TactileHandrail : MonoBehaviour
 {
-    
     public Material idleMaterial;
     public Material activeMaterial;
-    public GameObject nextHandRail;
-    public GameObject prevHandRail;
-
     public float blinkPeriod = 0.1f;
+    public bool reversedTiltBlink = false;
 
-    public bool currentTiltDirection = true;
-    public bool emergency = true;
-
-    private bool isBlinking = false;
+    private ControlPanel controlPanel;
+    private Coroutine runningCoroutine;
     private List<GameObject> markers = new List<GameObject>();
+    private bool emergencyMode = false;
+    private bool tiltBlinkDirection = true;
+    private bool isBlinking = false;
 
     void Start()
-    {
+    {   
+        GameObject cp = GameObject.Find("ControlPanel");
+        controlPanel = cp.GetComponent<ControlPanel>();
+
         Transform markers_parent_transform = gameObject.transform.Find("Markers");
         foreach(Transform marker in markers_parent_transform)
             markers.Add(marker.gameObject);
         
-        if (!currentTiltDirection)
-            markers.Reverse();
+        if (reversedTiltBlink)
+            ReverseTiltBlink();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (emergency)
+        if (controlPanel.emergency != emergencyMode)
         {
-            if (!isBlinking)
-                StartCoroutine(BlinkMarkers());
-            TiltMarkers(currentTiltDirection);
+            emergencyMode = controlPanel.emergency;
+            StartCoroutine(ChangingBlinkMarkers());
+            TiltMarkers();
         }
+
+        if (!reversedTiltBlink && tiltBlinkDirection != controlPanel.evacuationDirection)
+        {
+            ReverseTiltBlink();
+            if (isBlinking)
+                StopCoroutine(runningCoroutine);
+            StartCoroutine(ChangingBlinkMarkers());
+            TiltMarkers();
+        }
+        else if (reversedTiltBlink && tiltBlinkDirection == controlPanel.evacuationDirection)
+        {
+            ReverseTiltBlink();
+            if (isBlinking)
+                StopCoroutine(runningCoroutine);
+            StartCoroutine(ChangingBlinkMarkers());
+            TiltMarkers();
+        }
+
+        if(emergencyMode && !isBlinking)
+            runningCoroutine = StartCoroutine(RunningMarkers());
+
     }
 
-    void TiltMarkers(bool tiltDirection)
+    void TiltMarkers()
     {   
-        Quaternion rotation = tiltDirection ? Quaternion.Euler(-20f, 0f, 0f) : Quaternion.Euler(20f, 0f, 0f);
+        float startTime = Time.time;
+        float tilt = 0f;
+        if (emergencyMode)
+            tilt = tiltBlinkDirection ? -20f : 20f;
+
+        Quaternion rotation = Quaternion.Euler(tilt, 0f, 0f);
 
         foreach(GameObject marker in markers)
             marker.transform.Find("MovingPart").localRotation = rotation;
     }
 
-     IEnumerator BlinkMarkers()
+    void ReverseTiltBlink()
+    {
+        tiltBlinkDirection = !tiltBlinkDirection;
+        markers.Reverse();
+    }
+
+    IEnumerator RunningMarkers()
     {
         isBlinking = true;
         for(int i = 0; i < markers.Count; i++)
@@ -66,6 +98,28 @@ public class TactileHandrail : MonoBehaviour
             mp2.GetComponent<MeshRenderer>().material = idleMaterial;
             mp3.GetComponent<MeshRenderer>().material = idleMaterial;
             yield return new WaitForSeconds(blinkPeriod / 2f);
+        }
+        isBlinking = false;
+    }
+
+    IEnumerator ChangingBlinkMarkers()
+    {
+        isBlinking = true;
+        for (int i = 0; i < 5; i ++)
+        {
+            foreach (GameObject marker in markers)
+            {
+                GameObject mp = marker.transform.Find("MovingPart").gameObject;
+                mp.GetComponent<MeshRenderer>().material = activeMaterial;
+            }
+            yield return new WaitForSeconds(blinkPeriod * 5f);
+
+            foreach(GameObject marker in markers)
+            {
+                GameObject mp = marker.transform.Find("MovingPart").gameObject;
+                mp.GetComponent<MeshRenderer>().material = idleMaterial;
+            }
+            yield return new WaitForSeconds(blinkPeriod);
         }
         isBlinking = false;
     }
