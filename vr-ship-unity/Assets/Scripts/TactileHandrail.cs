@@ -51,16 +51,20 @@ public class TactileHandrail : MonoBehaviour
      IEnumerator BlinkMarkers()
     {
         isBlinking = true;
-        foreach(GameObject marker in markers)
-        {
-            GameObject mp = marker.transform.Find("MovingPart").gameObject;
+        for(int i = 0; i < markers.Count; i++)
+        {   
+            GameObject mp1 = markers[i % markers.Count].transform.Find("MovingPart").gameObject;
+            GameObject mp2 = markers[(i + 1) % markers.Count].transform.Find("MovingPart").gameObject;
+            GameObject mp3 = markers[(i + 2) % markers.Count].transform.Find("MovingPart").gameObject;
 
-            mp.GetComponent<MeshRenderer>().material = activeMaterial;
-            // yield return new WaitForSeconds(2 / blinkingSpeed);
+            mp1.GetComponent<MeshRenderer>().material = activeMaterial;
+            mp2.GetComponent<MeshRenderer>().material = activeMaterial;
+            mp3.GetComponent<MeshRenderer>().material = activeMaterial;
             yield return new WaitForSeconds(blinkPeriod);
 
-            mp.GetComponent<MeshRenderer>().material = idleMaterial;
-            // yield return new WaitForSeconds(1 / blinkingSpeed);
+            mp1.GetComponent<MeshRenderer>().material = idleMaterial;
+            mp2.GetComponent<MeshRenderer>().material = idleMaterial;
+            mp3.GetComponent<MeshRenderer>().material = idleMaterial;
             yield return new WaitForSeconds(blinkPeriod / 2f);
         }
         isBlinking = false;
