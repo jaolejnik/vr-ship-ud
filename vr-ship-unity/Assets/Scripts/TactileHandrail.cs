@@ -7,7 +7,7 @@ public class TactileHandrail : MonoBehaviour
 {
     public Material idleMaterial;
     public Material activeMaterial;
-    public float blinkPeriod = 0.1f;
+    private float blinkPeriod = 0.15f;
     public bool reversedTiltBlink = false;
 
     private ControlPanel controlPanel;
@@ -82,22 +82,23 @@ public class TactileHandrail : MonoBehaviour
 
     IEnumerator RunningMarkers()
     {
-        isBlinking = true;
-        for(int i = 0; i < markers.Count; i++)
-        {   
-            GameObject mp1 = markers[i % markers.Count].transform.Find("MovingPart").gameObject;
-            GameObject mp2 = markers[(i + 1) % markers.Count].transform.Find("MovingPart").gameObject;
-            GameObject mp3 = markers[(i + 2) % markers.Count].transform.Find("MovingPart").gameObject;
+        int active_markers = 6; 
 
-            mp1.GetComponent<MeshRenderer>().material = activeMaterial;
-            mp2.GetComponent<MeshRenderer>().material = activeMaterial;
-            mp3.GetComponent<MeshRenderer>().material = activeMaterial;
+        isBlinking = true;
+        for (int i = 0; i < markers.Count; i++)
+        {   
+            for (int j = 0; j < active_markers; j++)
+            {
+                GameObject mp = markers[(i + j) % markers.Count].transform.Find("MovingPart").gameObject;
+                mp.GetComponent<MeshRenderer>().material = activeMaterial;
+            }            
             yield return new WaitForSeconds(blinkPeriod);
 
-            mp1.GetComponent<MeshRenderer>().material = idleMaterial;
-            mp2.GetComponent<MeshRenderer>().material = idleMaterial;
-            mp3.GetComponent<MeshRenderer>().material = idleMaterial;
-            yield return new WaitForSeconds(blinkPeriod / 2f);
+            for (int j = 0; j < active_markers; j++)
+            {
+                GameObject mp = markers[(i + j) % markers.Count].transform.Find("MovingPart").gameObject;
+                mp.GetComponent<MeshRenderer>().material = idleMaterial;
+            }            
         }
         isBlinking = false;
     }
