@@ -7,14 +7,14 @@ public class TactileHandrail : MonoBehaviour
 {
     public Material idleMaterial;
     public Material activeMaterial;
-    private float blinkPeriod = 0.15f;
     public bool reversedTiltBlink = false;
 
     private ControlPanel controlPanel;
     private Coroutine runningCoroutine;
     private List<GameObject> markers = new List<GameObject>();
+    private float blinkPeriod = 0.15f;
     private bool emergencyMode = false;
-    private bool tiltBlinkDirection = true;
+    private bool tiltBlinkDirection = false;
     private bool isBlinking = false;
 
     void Start()
@@ -32,6 +32,15 @@ public class TactileHandrail : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown("joystick button 5"))
+            blinkPeriod = 0.15f;
+
+        if (Input.GetKeyDown("joystick button 6"))
+            blinkPeriod *= 1.5f;
+
+        if (Input.GetKeyDown("joystick button 7"))
+            blinkPeriod /= 1.5f;
+        
         if (controlPanel.emergency != emergencyMode)
         {
             emergencyMode = controlPanel.emergency;
@@ -66,7 +75,7 @@ public class TactileHandrail : MonoBehaviour
         float startTime = Time.time;
         float tilt = 0f;
         if (emergencyMode)
-            tilt = tiltBlinkDirection ? -20f : 20f;
+            tilt = tiltBlinkDirection ? 20f : -20f;
 
         Quaternion rotation = Quaternion.Euler(tilt, 0f, 0f);
 

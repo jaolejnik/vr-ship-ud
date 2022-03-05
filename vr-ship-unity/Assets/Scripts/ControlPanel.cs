@@ -5,7 +5,7 @@ using UnityEngine;
 public class ControlPanel : MonoBehaviour
 {
     public bool emergency = false;
-    public bool evacuationDirection = true;
+    public bool evacuationDirection = false;
     // Start is called before the first frame update
     void Start()
     {

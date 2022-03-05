@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8505268702965334124}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -110,6 +110,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TactileHandrail (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
 --- !u!4 &5842476159636746653 stripped
@@ -184,6 +189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TactileHandrail (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
@@ -260,6 +270,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TactileHandrail
       objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
 --- !u!4 &5842476160163534532 stripped
@@ -334,6 +349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TactileHandrail (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
@@ -410,6 +430,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TactileHandrail (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
 --- !u!4 &5842476158883387001 stripped
@@ -484,6 +509,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TactileHandrail (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
@@ -560,6 +590,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TactileHandrail (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
 --- !u!4 &5842476159394838350 stripped
@@ -634,6 +669,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TactileHandrail (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
@@ -710,6 +750,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TactileHandrail (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
 --- !u!4 &5842476159456306811 stripped
@@ -784,6 +829,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TactileHandrail (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
@@ -860,6 +910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TactileHandrail (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
 --- !u!4 &5842476159186990604 stripped
@@ -934,6 +989,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TactileHandrail (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}

@@ -8,8 +8,8 @@ public class FireAlarm : MonoBehaviour
 
     private AudioSource audio;
     private AudioClip originalClip;
-    private float originalVolume;
     private ControlPanel controlPanel;
+    private float originalVolume;
     private bool isPlaying = false;
     private bool emergencyMode = false;
 

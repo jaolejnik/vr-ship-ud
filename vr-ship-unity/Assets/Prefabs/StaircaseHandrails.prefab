@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8429581143321273909}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -262,6 +262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TactileHandrail (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7216309418686508583, guid: 8975c9322c4733644a1e0d1dc478ee6b,
+        type: 3}
+      propertyPath: reversedTiltBlink
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8975c9322c4733644a1e0d1dc478ee6b, type: 3}
