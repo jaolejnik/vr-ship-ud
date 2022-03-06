@@ -220,4 +220,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8796355a78218841830f3d69cb61f78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alarmClip: {fileID: 8300000, guid: 4ca995aff584de9439bdd3c58cf46055, type: 3}
+  alarmClip: {fileID: 8300000, guid: 2d0d93cd1cc149642aa90603d7417f3c, type: 3}
